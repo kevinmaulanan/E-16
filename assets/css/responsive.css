@@ -1,0 +1,32 @@
+@media all and (max-width: 670px) {
+  .content {
+    float: none;
+    min-width: 400px;
+    margin: 0 auto;
+  }
+
+  .text-main {
+    width: 70%;
+    height: 36%;
+  }
+
+  .text-main a {
+    font-size: 25px;
+  }
+
+  .text-main p {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .content {
+    width: 45%;
+  }
+  .text-main {
+    width: 80%;
+    height: 36%;
+    padding: 10;
+    margin-top: 10px;
+  }
+}
